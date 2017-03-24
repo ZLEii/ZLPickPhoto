@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		123C71FD1D03D96E00D57004 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 123C71FC1D03D96E00D57004 /* main.m */; };
+		123C72001D03D96E00D57004 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 123C71FF1D03D96E00D57004 /* AppDelegate.m */; };
+		123C72031D03D96E00D57004 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 123C72021D03D96E00D57004 /* ViewController.m */; };
+		123C72061D03D96E00D57004 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 123C72041D03D96E00D57004 /* Main.storyboard */; };
+		123C72081D03D96E00D57004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 123C72071D03D96E00D57004 /* Assets.xcassets */; };
+		123C720B1D03D96E00D57004 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 123C72091D03D96E00D57004 /* LaunchScreen.storyboard */; };
+		48567B7D1D10ED270042009F /* ZLPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48567B751D10ED270042009F /* ZLPhotoCell.m */; };
+		48567B7E1D10ED270042009F /* ZLPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48567B761D10ED270042009F /* ZLPhotoCell.xib */; };
+		48567B7F1D10ED270042009F /* ZLPhotoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 48567B781D10ED270042009F /* ZLPhotoHelper.m */; };
+		48567B801D10ED270042009F /* ZLPickPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48567B7A1D10ED270042009F /* ZLPickPhotoViewController.m */; };
+		48567B811D10ED270042009F /* ZLShowImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48567B7C1D10ED270042009F /* ZLShowImageViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		123C71F81D03D96E00D57004 /* PhotoKit的使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PhotoKit的使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		123C71FC1D03D96E00D57004 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		123C71FE1D03D96E00D57004 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		123C71FF1D03D96E00D57004 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		123C72011D03D96E00D57004 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		123C72021D03D96E00D57004 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		123C72051D03D96E00D57004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		123C72071D03D96E00D57004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		123C720A1D03D96E00D57004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		123C720C1D03D96E00D57004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48567B741D10ED270042009F /* ZLPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLPhotoCell.h; sourceTree = "<group>"; };
+		48567B751D10ED270042009F /* ZLPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLPhotoCell.m; sourceTree = "<group>"; };
+		48567B761D10ED270042009F /* ZLPhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLPhotoCell.xib; sourceTree = "<group>"; };
+		48567B771D10ED270042009F /* ZLPhotoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLPhotoHelper.h; sourceTree = "<group>"; };
+		48567B781D10ED270042009F /* ZLPhotoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLPhotoHelper.m; sourceTree = "<group>"; };
+		48567B791D10ED270042009F /* ZLPickPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLPickPhotoViewController.h; sourceTree = "<group>"; };
+		48567B7A1D10ED270042009F /* ZLPickPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLPickPhotoViewController.m; sourceTree = "<group>"; };
+		48567B7B1D10ED270042009F /* ZLShowImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLShowImageViewController.h; sourceTree = "<group>"; };
+		48567B7C1D10ED270042009F /* ZLShowImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLShowImageViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		123C71F51D03D96E00D57004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		123C71EF1D03D96E00D57004 = {
+			isa = PBXGroup;
+			children = (
+				123C71FA1D03D96E00D57004 /* PhotoKit的使用 */,
+				123C71F91D03D96E00D57004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		123C71F91D03D96E00D57004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				123C71F81D03D96E00D57004 /* PhotoKit的使用.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		123C71FA1D03D96E00D57004 /* PhotoKit的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				48567B731D10ED270042009F /* ZLPickPhoto */,
+				123C72011D03D96E00D57004 /* ViewController.h */,
+				123C72021D03D96E00D57004 /* ViewController.m */,
+				123C72071D03D96E00D57004 /* Assets.xcassets */,
+				123C72091D03D96E00D57004 /* LaunchScreen.storyboard */,
+				123C720C1D03D96E00D57004 /* Info.plist */,
+				123C71FB1D03D96E00D57004 /* Supporting Files */,
+			);
+			path = "PhotoKit的使用";
+			sourceTree = "<group>";
+		};
+		123C71FB1D03D96E00D57004 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				123C71FE1D03D96E00D57004 /* AppDelegate.h */,
+				123C71FF1D03D96E00D57004 /* AppDelegate.m */,
+				123C72041D03D96E00D57004 /* Main.storyboard */,
+				123C71FC1D03D96E00D57004 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48567B731D10ED270042009F /* ZLPickPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				48567B741D10ED270042009F /* ZLPhotoCell.h */,
+				48567B751D10ED270042009F /* ZLPhotoCell.m */,
+				48567B761D10ED270042009F /* ZLPhotoCell.xib */,
+				48567B771D10ED270042009F /* ZLPhotoHelper.h */,
+				48567B781D10ED270042009F /* ZLPhotoHelper.m */,
+				48567B791D10ED270042009F /* ZLPickPhotoViewController.h */,
+				48567B7A1D10ED270042009F /* ZLPickPhotoViewController.m */,
+				48567B7B1D10ED270042009F /* ZLShowImageViewController.h */,
+				48567B7C1D10ED270042009F /* ZLShowImageViewController.m */,
+			);
+			path = ZLPickPhoto;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		123C71F71D03D96E00D57004 /* PhotoKit的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 123C720F1D03D96E00D57004 /* Build configuration list for PBXNativeTarget "PhotoKit的使用" */;
+			buildPhases = (
+				123C71F41D03D96E00D57004 /* Sources */,
+				123C71F51D03D96E00D57004 /* Frameworks */,
+				123C71F61D03D96E00D57004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PhotoKit的使用";
+			productName = "PhotoKit的使用";
+			productReference = 123C71F81D03D96E00D57004 /* PhotoKit的使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		123C71F01D03D96E00D57004 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = lei;
+				TargetAttributes = {
+					123C71F71D03D96E00D57004 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = W42T7XX6L3;
+					};
+				};
+			};
+			buildConfigurationList = 123C71F31D03D96E00D57004 /* Build configuration list for PBXProject "PhotoKit的使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 123C71EF1D03D96E00D57004;
+			productRefGroup = 123C71F91D03D96E00D57004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				123C71F71D03D96E00D57004 /* PhotoKit的使用 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		123C71F61D03D96E00D57004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48567B7E1D10ED270042009F /* ZLPhotoCell.xib in Resources */,
+				123C720B1D03D96E00D57004 /* LaunchScreen.storyboard in Resources */,
+				123C72081D03D96E00D57004 /* Assets.xcassets in Resources */,
+				123C72061D03D96E00D57004 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		123C71F41D03D96E00D57004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48567B7D1D10ED270042009F /* ZLPhotoCell.m in Sources */,
+				123C72031D03D96E00D57004 /* ViewController.m in Sources */,
+				48567B801D10ED270042009F /* ZLPickPhotoViewController.m in Sources */,
+				48567B811D10ED270042009F /* ZLShowImageViewController.m in Sources */,
+				123C72001D03D96E00D57004 /* AppDelegate.m in Sources */,
+				48567B7F1D10ED270042009F /* ZLPhotoHelper.m in Sources */,
+				123C71FD1D03D96E00D57004 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		123C72041D03D96E00D57004 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				123C72051D03D96E00D57004 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		123C72091D03D96E00D57004 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				123C720A1D03D96E00D57004 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		123C720D1D03D96E00D57004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		123C720E1D03D96E00D57004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		123C72101D03D96E00D57004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "PhotoKit的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lei.PhotoKit---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		123C72111D03D96E00D57004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "PhotoKit的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lei.PhotoKit---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		123C71F31D03D96E00D57004 /* Build configuration list for PBXProject "PhotoKit的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				123C720D1D03D96E00D57004 /* Debug */,
+				123C720E1D03D96E00D57004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		123C720F1D03D96E00D57004 /* Build configuration list for PBXNativeTarget "PhotoKit的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				123C72101D03D96E00D57004 /* Debug */,
+				123C72111D03D96E00D57004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 123C71F01D03D96E00D57004 /* Project object */;
+}
